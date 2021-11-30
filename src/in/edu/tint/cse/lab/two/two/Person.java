@@ -1,0 +1,12 @@
+package in.edu.tint.cse.lab.two.two;
+
+abstract public class Person {
+    String name;
+    int age;
+    String gender;
+    Person(String name, int age, String gender){
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+}
